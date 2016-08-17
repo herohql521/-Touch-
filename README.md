@@ -17,21 +17,21 @@ html5标准新增，跨移动端设备普遍支持的三种基本事件。
     
 ####这些数组由包含触摸信息的对象组成
     
-    identifier：标识触摸的唯一ID
+    identifier：　　　　标识触摸的唯一ID
     
-    target：触摸的dom目标节点
+    target：　　　　　　触摸的dom目标节点
     
-    clientX：触摸目标在视口中的x坐标
+    clientX：　　　　　触摸目标在视口中的x坐标
     
-    clientY：触摸目标在视口中的y坐标
+    clientY：　　　　　触摸目标在视口中的y坐标
     
-    pageX：触摸目标在页面中的x坐标
+    pageX：　　　　　　触摸目标在页面中的x坐标
     
-    pageY：触摸目标在页面中的y坐标
+    pageY：　　　　　　触摸目标在页面中的y坐标
     
-    screenX：触摸目标在屏幕中的x坐标
+    screenX：　　　　　触摸目标在屏幕中的x坐标
     
-    screenY：触摸目标在屏幕中的y坐标
+    screenY：　　　　　触摸目标在屏幕中的y坐标
     
     
     
