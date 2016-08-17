@@ -19,6 +19,7 @@
 		var drag = document.getElementById("drag");
 		
 		drag.addEventListener('touchmove',function(event){
+			event.preventDefault();
 			if(event.targetTouches.length==1){
 				var  touch = event.targetTouches[0];
 				//钯元素放在手指所在的位置
