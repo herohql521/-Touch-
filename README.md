@@ -65,6 +65,8 @@ html5标准新增，跨移动端设备普遍支持的三种基本事件。
   
   如果　-135°<=滑动角度<-45°　则返回　向下滑
   
+  [demo](https://herohql521.github.io/HTML5-Touch-Events/touch-deriction.html)
+  
  
 
 
