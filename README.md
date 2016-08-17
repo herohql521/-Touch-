@@ -7,4 +7,3 @@ html5新增事件，仅支持移动端设备
   
   <b>touchend</b>:　　 离开屏幕时触发</br>
   
-  <b>touchcancle</b>:　取消监听触摸时触发</br>
