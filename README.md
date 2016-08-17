@@ -35,6 +35,23 @@ html5标准新增，跨移动端设备普遍支持的三种基本事件。
     
 ####下面展示一个用touchmove实现的单指拖拽块元素的效果 [demo](https://herohql521.github.io/HTML5-Touch-Events/drag.html)
 
+```javascropt
+<script>
+
+		var drag = document.getElementById("drag");
+		
+		drag.addEventListener('touchmove',function(event){
+			event.preventDefault();
+			if(event.targetTouches.length==1){
+				var  touch = event.targetTouches[0];
+				//钯元素放在手指所在的位置
+				drag.style.left = touch.pageX + "px";
+				drag.style.top = touch.pageY + "px";
+			}
+		},false)
+	</script>
+```
+
     
     
     
