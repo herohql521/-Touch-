@@ -55,7 +55,7 @@ html5标准新增，跨移动端设备普遍支持的三种基本事件。
   用到了Math.atan2(y,x)方法,返回从X轴正向到(x,y)之间的角度，值介于-PI和PI之间
   
   
-  ![img](https://herohql521.github.io/HTML5-Touch-Events/atan2.jpg)
+  ![img](https://herohql521.github.io/HTML5-Touch-Events/atan2-.jpg)
   
   如果　45°<滑动角度<135° 　则返回 　向上滑
   
