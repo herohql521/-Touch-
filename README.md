@@ -71,9 +71,9 @@ html5标准新增，跨移动端设备普遍支持的三种基本事件。
 ####长按事件（衍生）
   
   ```javascript
-  <script>
-var timeOutEvent=0;
-$(function(){
+<script>
+  var timeOutEvent=0;
+  $(function(){
 	$("#touchArea").on({
 		touchstart: function(e){
 			timeOutEvent = setTimeout("longPress()",500);
