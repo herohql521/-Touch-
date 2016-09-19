@@ -66,7 +66,42 @@ html5标准新增，跨移动端设备普遍支持的三种基本事件。
   如果　-135°<=滑动角度<-45°　则返回　向下滑
   
   [demo](https://herohql521.github.io/HTML5-Touch-Events/touch-direction.html)
+
+
+####长按事件（衍生）
   
+  ```javascript
+  <script>
+var timeOutEvent=0;
+$(function(){
+	$("#touchArea").on({
+		touchstart: function(e){
+			timeOutEvent = setTimeout("longPress()",500);
+		 	e.preventDefault();
+		},
+		touchmove: function(){
+            		clearTimeout(timeOutEvent);         		
+		    	    timeOutEvent = 0; 
+		    	     alert("你这是滑动"); 
+		},
+		touchend: function(){
+	   		clearTimeout(timeOutEvent);
+			if(timeOutEvent!=0){ 
+			    alert("你这是点击，不是长按"); 
+			} 
+			return false; 
+		}
+	})
+});
+
+ 
+function longPress(){ 
+    timeOutEvent = 0; 
+    alert("长按事件触发发"); 
+} 
+
+</script>
+  ```
  
 
 
